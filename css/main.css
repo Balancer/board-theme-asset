@@ -384,7 +384,8 @@ span.clear {
 	margin-left: -1px;
 }
 
-@media only screen and (min-device-width: 640px) and (min-device-width: 12cm) {
+/* Для широкого экрана */
+@media only screen and (min-width: 768px) {
 	.outer {
 		margin-left: 215px;  /* L */
 	}
@@ -408,7 +409,7 @@ span.clear {
 
 /* previene allargamento floats (hidden) */
 .inleft, .incenter {
-	width: 99%;
+	width: 99.9999%;
 	overflow: hidden;
 	padding: 4px;
 }
@@ -505,7 +506,7 @@ a tt.warnings small {
 .btab tr.neg_reputation td { background-color: #fee; color: #900; }
 
 .w200 ul {
-	font: 0.7rem;
+	font-size: 0.7rem;
 	padding-left: 16px;
 	margin: 0;
 }
@@ -977,27 +978,8 @@ table.topic-list td > a > img {
 	margin: 1mm 0;
 }
 
-/* Экран высокого разрешения  */
-/*
-@media only screen and (min-resolution: 192dpi) {
-	.forum_actions {
-		background-size: 200%;
-	}
-	table.topic-list td > a > img {
-		min-width: 2cm;
-		min-height: 2cm;
-		-moz-transform: scale(2);
-		-ms-transform: scale(2);
-		-o-transform: scale(2);
-		-webkit-transform: scale(2);
-		transform: scale(2);
-	}
-	table.topic-list td {
-	}
-}
-*/
-
-@media only screen and (min-device-width: 640px) and (min-device-width: 12cm) {
+/* Широкий экран */
+@media only screen and (min-width: 768px) {
 
 	div.post_no_news {
 		margin-left: 100px;
@@ -1108,8 +1090,7 @@ xbody::before {
 }
 
 /* Экран низкого разрешения или узкий */
-/*@media only screen and ((max-device-width: 639px) or (max-device-width: 10cm)) */
-@media only screen and (max-device-width: 11.99cm) {
+@media only screen and (max-width: 768px) {
 	body {
 		padding-left: 0;
 	}
@@ -1153,4 +1134,10 @@ xbody::before {
 	.wrapper {
 		margin: 0;
 	}
+}
+
+.user_dead:after {
+	content: "    ";
+	background-color: black;
+	margin-left: 1ex;
 }
