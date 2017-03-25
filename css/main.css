@@ -7,7 +7,7 @@ html {
 
 body {
 	color: #358;
-    background: #D8F0FF url(http://www.airbase.ru/images/web/sky-back.jpg);
+    background: #D8F0FF url(//www.airbase.ru/images/web/sky-back.jpg);
 	margin: 0px; 
 	padding: 0px 0px 32px 4px;
 	clear: both;
@@ -112,7 +112,7 @@ dl.box dt a {color: #ffffd0;}
 }
 
 a.external {
-    background: url(http://www.airbase.ru/img/design/system/external.png) center right no-repeat;
+    background: url(//www.airbase.ru/img/design/system/external.png) center right no-repeat;
     padding-right: 13px;
 }
 
@@ -375,7 +375,7 @@ span.clear {
 }
 
 .wrapper {
-/*    background: #D8F0FF url(http://www.airbase.ru/images/web/sky-back.jpg); */
+/*    background: #D8F0FF url(//www.airbase.ru/images/web/sky-back.jpg); */
 }
 
 .tpl_column_center {
@@ -450,7 +450,7 @@ ul.postfooter {
 }
 
 ul.postfooter li {
-    list-style-image:URL(http://www.airbase.ru/img/web/li/arrow_blue.gif);
+    list-style-image:URL(//www.airbase.ru/img/web/li/arrow_blue.gif);
 	display: inline;
 	margin: 0;
 	padding: 0;
@@ -1018,7 +1018,7 @@ table.topic-list td > a > img {
 }
 
 .random-background {
-    background: url(http://www.balancer.ru/hi/1a/wp.php) no-repeat center center fixed;
+    background: url(//www.balancer.ru/hi/1a/wp.php) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1032,7 +1032,7 @@ table.topic-list td > a > img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url(http://www.balancer.ru/hi/1a/wp.php);
+    background-image: url(//www.balancer.ru/hi/1a/wp.php);
 }
 
 /*
