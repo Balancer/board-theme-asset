@@ -3,9 +3,9 @@ with(document)
 {
 /*
 	if(size[0] < 640)
-		write('<link rel="stylesheet" type="text/css" href="http://forums.balancer.ru/tpl/default/css/lowres.css" />')
+		write('<link rel="stylesheet" type="text/css" href="//forums.balancer.ru/tpl/default/css/lowres.css" />')
 	else
-		write('<link rel="stylesheet" type="text/css" href="http://forums.balancer.ru/tpl/default/css/main3.css" />')
+		write('<link rel="stylesheet" type="text/css" href="//forums.balancer.ru/tpl/default/css/main3.css" />')
 */
 	write('<style>')
 	if(fontFamily=readCookie('html.fontFamily'))
