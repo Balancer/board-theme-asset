@@ -921,10 +921,12 @@ tr.bb-background-private td {
 
 .post_body img, .post .body img  {
 	max-width: 100%;
+	height: auto;
 }
 
 .small_post img, .rs_box_nd, .rs_box_nd img, .rs_box, .rs_box img  {
 	max-width: 100%;
+	height: auto;
 }
 
 .forum-link-small {
