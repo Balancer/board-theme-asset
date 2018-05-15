@@ -1,0 +1,8 @@
+{
+    "name": "balancer-board-theme-asset",
+    "version": "0.0.1",
+    "main": [
+    	"css/*.css",
+    	"js/*.js"
+    ]
+}
